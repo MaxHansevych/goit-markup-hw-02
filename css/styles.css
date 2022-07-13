@@ -45,6 +45,7 @@ body {
 }
 
 .menu-link {
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
@@ -52,7 +53,6 @@ body {
 }
 
 .menu-link:hover,
-.menu-link:active,
 .menu-link:focus {
   color: var(--accent-text-color);
 }
