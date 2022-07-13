@@ -1,0 +1,225 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #000000;
+  --accent-text-color: #2196f3;
+  --light-theme-text: #757575;
+  --dark-theme-text: #ffffff;
+  --primary-backdround-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --accent-background-color: #2196f3;
+  --subtle-background-color: #f5f4fa;
+}
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.button {
+  cursor: pointer;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-backdround-color);
+}
+
+/* <÷=============================== HEADER ===============================> */
+.menu {
+  background-color: var(--secondary-backdround-color);
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  color: var(--secondary-text-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-accent {
+  color: var(--accent-text-color);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:active,
+.menu-link:focus {
+  color: var(--accent-text-color);
+}
+
+.menu-contacts {
+  color: var(--subtle-text-color);
+}
+.menu-contacts:hover,
+.menu-contacts:focus {
+  color: var(--accent-text-color);
+}
+
+.current {
+  color: var(--accent-text-color);
+}
+
+/* </=============================== HEADER ===============================/> */
+
+/* <=============================== HERO ===============================> */
+
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  color: var(--dark-theme-text);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+}
+
+.hero-button {
+  color: var(--dark-theme-text);
+  background-color: var(--accent-background-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border: none;
+}
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
+  background-color: #188ce8;
+}
+
+/* </=============================== HERO ===============================/> */
+
+/* <=============================== OUR WORK ===============================> */
+.our-work-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.our-work-text {
+  color: var(--light-theme-text);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* </=============================== OUR WORK ===============================/> */
+
+/* <=============================== OUR TEAM ===============================> */
+.our-team {
+  background-color: var(--subtle-background-color);
+}
+.our-team-item {
+  background-color: var(--primary-backdround-color);
+}
+.our-team-main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.our-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+}
+
+.our-team-text {
+  color: var(--light-theme-text);
+  font-size: 16px;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+}
+/* </=============================== OUR TEAM ===============================/> */
+/* <=============================== FOOTER ===============================> */
+
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  color: var(--dark-theme-text);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.footer-address {
+  color: var(--dark-theme-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--accent-text-color);
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-text-color);
+}
+
+/* </=============================== FOOTER ===============================/> */
+
+/* <=============================== PORTFOLIO ===============================> */
+
+.portfolio-button {
+  color: var(--primary-text-color);
+  background-color: var(--subtle-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border: none;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button:active {
+  color: var(--dark-theme-text);
+  background-color: var(--accent-background-color);
+}
+
+.portfolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--light-theme-text);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+/* </=============================== PORTFOLIO ===============================/> */
