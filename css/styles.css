@@ -164,7 +164,6 @@ body {
 .footer-address {
   color: var(--dark-theme-text);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
