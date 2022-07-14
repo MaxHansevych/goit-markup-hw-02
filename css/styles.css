@@ -59,6 +59,10 @@ body {
 
 .menu-contacts {
   color: var(--subtle-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
 }
 .menu-contacts:hover,
 .menu-contacts:focus {
@@ -83,9 +87,11 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-button {
+  font-family: inherit;
   color: var(--dark-theme-text);
   background-color: var(--accent-background-color);
   font-weight: 700;
@@ -103,6 +109,14 @@ body {
 /* </=============================== HERO ===============================/> */
 
 /* <=============================== OUR WORK ===============================> */
+.our-work-main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .our-work-title {
   font-weight: 700;
   font-size: 14px;
@@ -134,14 +148,13 @@ body {
 
 .our-team-title {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.17em;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .our-team-text {
   color: var(--light-theme-text);
-  font-size: 16px;
   line-height: 1.17em;
   letter-spacing: 0.03em;
 }
@@ -192,6 +205,7 @@ body {
 /* <=============================== PORTFOLIO ===============================> */
 
 .portfolio-button {
+  font-family: inherit;
   color: var(--primary-text-color);
   background-color: var(--subtle-background-color);
   font-weight: 500;
@@ -217,7 +231,6 @@ body {
 
 .portfolio-text {
   color: var(--light-theme-text);
-  font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
